@@ -224,6 +224,8 @@ script = ExtResource("2_yqjtg")
 [node name="Camera2D" type="Camera2D" parent="player"]
 position = Vector2(0, -8)
 zoom = Vector2(4, 4)
+limit_bottom = 140
+limit_smoothed = true
 position_smoothing_enabled = true
 
 [node name="platform" parent="." instance=ExtResource("4_lbhrr")]
