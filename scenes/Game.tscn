@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bvn41288du7ci" path="res://scenes/Platform.tscn" id="4_g4kob"]
 [ext_resource type="PackedScene" uid="uid://doxnu0xmb7tnc" path="res://scenes/Coin.tscn" id="5_qy1jj"]
 [ext_resource type="PackedScene" uid="uid://byg6rbhur2q1x" path="res://scenes/Killzone.tscn" id="6_3xj3m"]
-[ext_resource type="PackedScene" uid="uid://dtnuslfvrtodg" path="res://scenes/slime.tscn" id="7_kiw3p"]
+[ext_resource type="PackedScene" uid="uid://dtnuslfvrtodg" path="res://scenes/Slime.tscn" id="7_kiw3p"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbhrr"]
 texture = ExtResource("1_aug50")
@@ -284,5 +284,5 @@ position = Vector2(772, -13)
 [node name="coin8" parent="coins" instance=ExtResource("5_qy1jj")]
 position = Vector2(812, -13)
 
-[node name="Slime" parent="." instance=ExtResource("7_kiw3p")]
+[node name="slime" parent="." instance=ExtResource("7_kiw3p")]
 position = Vector2(553, 97)
